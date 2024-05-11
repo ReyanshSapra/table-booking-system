@@ -38,6 +38,7 @@ def cancel_booking(restaurant_name, name):
 
 def main():
     st.title("Restaurant Table Booking System")
+    st.write("Note: This website is just a test app made for some fun. If you book a table on this website it will not go through.")
 
     option = st.sidebar.radio("Select an option", ["Book a table", "Cancel booking"])
 
